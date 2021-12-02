@@ -28,6 +28,7 @@ urlpatterns = [
 
     # Local Apps 
     path('', include('pages.urls')),
+    path('books/', include('books.urls')),
     
     # path('accounts/', include('users.urls')),
 ]
