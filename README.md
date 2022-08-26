@@ -22,7 +22,6 @@ Bookstore app is a simple online bookstore application, developed as a personal 
  ###### Then clone the [Bookstore App Repo](https://github.com/Shuvam77/bookstore) from the GitHub.
  ```
  bookstore_project $ git clone https://github.com/Shuvam77/bookstore.git .
- bookstore_project $ cd bookstore
  ```
  
  ###### Docker Compose
