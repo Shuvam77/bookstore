@@ -42,7 +42,7 @@ Bookstore app is a simple online bookstore application, developed as a personal 
  ###### Create Django Superuser
  For super access in application
  ```
- bookstore_project/bookstore $ docker-compose exec web python manage.py createsuperuser
+ bookstore_project $ docker-compose exec web python manage.py createsuperuser
  
  Username: admin
  Email address: admin@email.com
