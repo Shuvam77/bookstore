@@ -27,16 +27,16 @@ Bookstore app is a simple online bookstore application, developed as a personal 
  ###### Docker Compose
  Build Images and Run Docker Containers
  ```
- bookstore_project/bookstore $ docker build .
- bookstore_project/bookstore $ docker-compose up
+ bookstore_project $ docker build .
+ bookstore_project $ docker-compose up
  ```
  
  ###### Migrations
  Propogate your models into database schema
  ```
- bookstore_project/bookstore $ docker-compose exec web python manage.py makemigrations
- bookstore_project/bookstore $ docker-compose exec web python manage.py showmigrations
- bookstore_project/bookstore $ docker-compose exec web python manage.py migrate 
+ bookstore_project $ docker-compose exec web python manage.py makemigrations
+ bookstore_project $ docker-compose exec web python manage.py showmigrations
+ bookstore_project $ docker-compose exec web python manage.py migrate 
  ```
  
  ###### Create Django Superuser
@@ -53,14 +53,14 @@ Bookstore app is a simple online bookstore application, developed as a personal 
  
  ###### Run docker containers
  ```
- bookstore_project/bookstore $ docker-compose up
+ bookstore_project $ docker-compose up
  or
- bookstore_project/bookstore $ docker-compose up -d (run in background)
+ bookstore_project $ docker-compose up -d (run in background)
  ```
  
  ###### Close docker containers
  ```
- bookstore_project/bookstore $ docker-compose down
+ bookstore_project $ docker-compose down
  ```
  
  
